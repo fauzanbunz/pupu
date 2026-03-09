@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Wallet, Rocket, ShieldCheck, TrendingUp, Twitter, Send, Menu, X, ChevronRight, Zap, Coins, Globe } from 'lucide-react';
 
@@ -57,8 +56,8 @@ export default function App() {
         <div className="container mx-auto px-6 flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center gap-2 cursor-pointer">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-purple-600 to-pink-500 flex items-center justify-center text-xl shadow-[0_0_15px_rgba(168,85,247,0.5)]">
-              🐶
+            <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-purple-600 to-pink-500 flex items-center justify-center text-xl shadow-[0_0_15px_rgba(168,85,247,0.5)] overflow-hidden">
+              <img src="https://raw.githubusercontent.com/fauzanbunz/pupu/main/27c84c042caaef735afb5fe932c4c79f.jpg" alt="Pupu Logo" className="w-full h-full object-cover" />
             </div>
             <span className="text-2xl font-extrabold tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
               PUPU WEB3
@@ -132,7 +131,7 @@ export default function App() {
               {/* Maskot Terapung Placeholder */}
               <div className="absolute inset-0 bg-gradient-to-tr from-purple-500 to-pink-500 rounded-full blur-[40px] opacity-50"></div>
               <div className="relative w-full h-full bg-gradient-to-br from-slate-800 to-slate-900 rounded-[3rem] border-2 border-purple-500/30 flex items-center justify-center shadow-2xl overflow-hidden transform rotate-3">
-                 <div className="text-[120px] md:text-[160px] drop-shadow-2xl">🐶</div>
+                 <img src="https://raw.githubusercontent.com/fauzanbunz/pupu/main/27c84c042caaef735afb5fe932c4c79f.jpg" alt="Pupu Mascot" className="w-full h-full object-cover" />
                  {/* Bintang Hiasan */}
                  <div className="absolute top-4 right-8 text-yellow-300 text-2xl animate-pulse">✨</div>
                  <div className="absolute bottom-8 left-8 text-yellow-300 text-xl animate-pulse delay-100">✨</div>
@@ -345,7 +344,9 @@ export default function App() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-6">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-purple-600 to-pink-500 flex items-center justify-center text-sm">🐶</div>
+              <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-purple-600 to-pink-500 flex items-center justify-center text-sm overflow-hidden">
+                <img src="https://raw.githubusercontent.com/fauzanbunz/pupu/main/27c84c042caaef735afb5fe932c4c79f.jpg" alt="Pupu Logo" className="w-full h-full object-cover" />
+              </div>
               <span className="text-xl font-bold text-white">PUPU WEB3</span>
             </div>
             
